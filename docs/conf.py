@@ -24,7 +24,7 @@ extensions = [
 ]
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-pygments_style = 'lightbulb'
+# pygments_style = 'lightbulb'
 
 
 
