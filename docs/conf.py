@@ -13,7 +13,8 @@ from sphinxawesome_theme import ThemeOptions
 project = 'Audulus-Canvas'
 copyright = '2023, Mark Alan Boyd'
 author = 'Mark Alan Boyd'
-release = 'v0.0.2-alpha'
+version = '0.0'
+release = '0.0.2-alpha'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
