@@ -23,7 +23,6 @@ extensions = [
     "sphinxcontrib.luadomain"
 ]
 
-templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 pygments_style = 'lightbulb'
 
@@ -33,11 +32,10 @@ pygments_style = 'lightbulb'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinxawesome_theme'
-html_static_path = ['_static']
 
 theme_options = ThemeOptions(
-    logo_dark="./_static/audulus-logo-dark.svg",
-    logo_light="./_static/audulus-logo-light.svg",
+    logo_dark="./docs/audulus-logo-dark.svg",
+    logo_light="./docs/audulus-logo-light.svg",
 )
 
 html_theme_options = asdict(theme_options)
