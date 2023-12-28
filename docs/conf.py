@@ -34,8 +34,8 @@ pygments_style = 'lightbulb'
 html_theme = 'sphinxawesome_theme'
 
 theme_options = ThemeOptions(
-    logo_dark="./docs/audulus-logo-dark.svg",
-    logo_light="./docs/audulus-logo-light.svg",
+    logo_dark="./docs/img/audulus-logo-dark.svg",
+    logo_light="./docs/img/audulus-logo-light.svg",
 )
 
 html_theme_options = asdict(theme_options)
